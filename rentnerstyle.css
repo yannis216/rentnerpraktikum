@@ -1,0 +1,59 @@
+.topspace{
+  height: 10px;
+}
+
+.quotecontainer{
+  background-color: #131919;
+  height: 40%;
+  color: white;
+
+}
+
+#quote{
+    padding: 15%;
+    text-align:center;
+    color: white;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.outerforwardcontainer{
+  margin-top: 6px;
+  background-color: #273D3B;
+  box-shadow: -3px 0 0 #EEE inset;
+}
+
+.innerforwardcontainer{
+  color: white;
+}
+
+.outerexplacontainer{
+  margin-top: 6px;
+  background-color: #E35C14;
+  box-shadow: 3px 0 0 #EEE inset;
+}
+
+.eq-height{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.textbox{
+  background-color: #273D3B;
+  color: #C1E1ED;
+  border: solid 1px #E35C14;
+}
+
+.formcontainer{
+  background-color: #273D3B;
+  color: white;
+}
+
+.submitbutton{
+  background: Transparent;
+  border: solid 1px #E35C14;
+  border-radius: 10px;
+  color: #C1E1ED;
+}
