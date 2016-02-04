@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Rentnerpraktikum</title>
+
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="rentnerstyle.css" rel="stylesheet">
@@ -18,37 +19,22 @@
   </head>
   <body>
     <div class="container-fluid">
-      <div class="row topspace">
+      <div class="row topspace"> <!-- Die Lücke oben -->
       </div>
       <div class="row">
-      <div class="col-md-8 col-md-offset-2 formcontainer">
-        <h1>Rentnerpraktikum</h1>
-        <form class="" action="contact_saver.php" method="post">
-          <div class="col-md-2 col-md-offset-3">
-            <label for="vname">Vorname:</label>
-            </br></br>
-            <label for="email">Email-Adresse:</label>
-            </br></br>
-            <label for="comment">Sie haben Anmerkungen?</label>
-            </br></br>
-          </div>
-          <div class="col-md-4">
-            <input class="textbox" type="text" name="vname" value="<?php
-              // echo htmlspecialchars($_POST["vname0"]);
-              ?>" required>
-            </br></br>
-            <input class="textbox" type="email" name="email" value="" required>
-            </br></br>
-            <textarea class="textbox" name="comment" cols="50" rows="3"></textarea>
-            </br></br>
-            <input style="width: 20px;" type="checkbox" name="confirm" value="" required>
-            <label for="confirm">Ja, ich möchte mit Informationen zu Rentnerpraktika </br> versorgt werden (Bitte ankreuzen)</label>
-            </br></br>
-            <input class="submitbutton" type="submit" name="save" value="Speichern">
-            </br></br>
-          </div>
+        <div class="col-md-8 col-md-offset-2 quotecontainer">
+          <div class="col-md-8 col-md-offset-2 savedtextcontainer">
           </br>
-        </form>
+            <p id="savedmessage">
+            Vielen Dank, Ihre Daten wurden erfolgreich gespeichert.
+            </p>
+            Unser Projekt steckt noch in den Kinderschuhen.
+            Deswegen möchten wir Ihnen, um die Wartezeit etwas zu vertreiben, ein paar Lektüre- und Filmvorschläge passend zum Thema machen.
+            Wenn Sie auf die vorgesehenen Links klicken und eines der Produkte erwerben, verdienen wir eine kleine Provision.
+            Diese hilft uns dabei, Ihnen schneller eine fertige Plattform anbieten zu können. Die Preise für Sie sind selbstverständlich dieselben, wie bei einem "normalen" Kauf. Falls sie uns noch etwas mitteilen wollen,
+            füllen Sie das Kontaktformular bitte erneut aus und fügen Ihre Mitteilung hinzu: <a href="future.php"> Mitteilung </a>
+          </div>
+          <p class="quote" id="savedquote">"Im Ruhestand muß man nicht mehr tun, was sich rentiert, sondern kann tun, was sich lohnt." </br> - Ernst Reinhardt </p>
         </div>
       </div>
     </div>

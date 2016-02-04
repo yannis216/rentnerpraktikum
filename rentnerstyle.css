@@ -1,5 +1,13 @@
+h1 {
+  text-align: center;
+}
+
 .topspace{
   height: 10px;
+}
+
+.container-fluid{
+  
 }
 
 .quotecontainer{
@@ -9,7 +17,7 @@
 
 }
 
-#quote{
+.quote{
     padding: 15%;
     text-align:center;
     color: white;
@@ -17,6 +25,12 @@
     font-size: 2em;
 }
 
+#savedquote{
+}
+#savedmessage{
+  text-align: center;
+  font-size: 1.5em;
+}
 .outerforwardcontainer{
   margin-top: 6px;
   background-color: #273D3B;
@@ -25,6 +39,7 @@
 
 .innerforwardcontainer{
   color: white;
+  margin:15%;
 }
 
 .outerexplacontainer{
@@ -33,6 +48,10 @@
   box-shadow: 3px 0 0 #EEE inset;
 }
 
+.innerexplacontainer{
+  color: white;
+  margin:15%;
+}
 .eq-height{
   display: -webkit-box;
   display: -webkit-flex;
@@ -56,4 +75,7 @@
   border: solid 1px #E35C14;
   border-radius: 10px;
   color: #C1E1ED;
+}
+
+.list{
 }
